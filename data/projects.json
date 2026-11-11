@@ -2,47 +2,47 @@
   "documentary": [
     {
       "title": "YBEC: Experiencing Education in Colorado",
-      "client": "Documentary",
+      "client": "Baktash Ahadi",
       "thumbnail": "/images/YBEC-CO-thumb-LG.webp",
       "video": "https://vimeo.com/902430334/5b0d32e117",
-      "credits": "Director: Baktash Ahadi",
       "featured": true,
       "hidden": false
     },
     {
       "title": "F&M College",
-      "client": "Short documentary",
+      "client": "INGOMA",
       "featured": false,
       "hidden": false
     },
     {
       "title": "Discover Lancaster",
-      "client": "Short documentary",
+      "client": "LampHouse",
+      "credits": "Director: Josh Henry",
       "featured": false,
       "hidden": false
     },
     {
       "title": "West Shore",
-      "client": "Brand documentary",
+      "client": "LampHouse",
       "featured": false,
       "hidden": false
     },
     {
       "title": "Thaddeus Stevens",
-      "client": "Brand documentary",
+      "client": "LampHouse",
       "featured": false,
       "hidden": false
     },
     {
       "title": "Method Sampling",
-      "client": "Feature documentary",
+      "client": "Josh Nesmith",
       "featured": false,
       "hidden": false
     },
     {
       "title": "Sally's Iron Mustangs",
-      "client": "Documentary",
-      "featured": true,
+      "client": "Reel Nation",
+      "featured": false,
       "hidden": false
     }
   ],
@@ -98,7 +98,7 @@
     {
       "title": "West Shore Home",
       "client": "LampHouse",
-      "featured": false,
+      "featured": true,
       "hidden": false
     },
     {
@@ -119,7 +119,7 @@
       "title": "On the Mountain",
       "client": "ARC",
       "status": "In festivals",
-      "featured": true,
+      "featured": false,
       "hidden": false
     },
     {
