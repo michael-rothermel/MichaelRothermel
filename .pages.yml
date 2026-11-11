@@ -13,7 +13,7 @@ content:
     format: json
     list:
       collapsible:
-        collapsed: true
+        collapsed: false
         summary: "{title} · {category}"
     fields:
       - name: title
