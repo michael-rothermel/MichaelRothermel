@@ -11,52 +11,148 @@ content:
     type: file
     path: data/projects.json
     format: json
-    list: true
     fields:
-      - name: title
-        label: Project title
-        type: string
-        required: true
-      - name: category
-        label: Category
-        type: select
-        options:
-          values: [Documentary, Commercial, Narrative]
-      - name: client
-        label: Agency, production company or format
-        description: "Shown next to the title, e.g. LampHouse or Feature documentary"
-        type: string
-      - name: status
-        label: Status (optional)
-        description: "Small italic note after the title, e.g. In festivals"
-        type: string
-      - name: thumbnail
-        label: Thumbnail still
-        description: "A 16:9 frame, about 1600 pixels wide. JPG works best."
-        type: image
-      - name: video
-        label: Video link
-        description: "Paste the Vimeo or YouTube link. Leave empty to show 'Video coming soon'."
-        type: string
-      - name: credits
-        label: Credits (optional)
-        description: "Shown under the video, e.g. Dir. Jane Doe · LampHouse · 2025 · Editor"
-        type: string
-      - name: featured
-        label: Feature in Two Shots
-        description: "Tick for up to 3 projects. They appear in list order."
-        type: boolean
-      - name: second_still
-        label: Second still (Two Shots only)
-        description: "A contrasting second frame. Uses the thumbnail if empty."
-        type: image
-      - name: edit_note
-        label: One line about the edit (Two Shots only)
-        type: text
-      - name: hidden
-        label: Hide from site
-        description: "Keeps the project saved but off the page."
-        type: boolean
+      - name: documentary
+        label: Documentary
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Project title
+            type: string
+            required: true
+          - name: client
+            label: Agency, production company or format
+            description: "Shown next to the title, e.g. LampHouse or Feature documentary"
+            type: string
+          - name: status
+            label: Status (optional)
+            description: "Small italic note after the title, e.g. In festivals"
+            type: string
+          - name: thumbnail
+            label: Thumbnail still
+            description: "A 16:9 frame, about 1600 pixels wide. JPG works best."
+            type: image
+          - name: video
+            label: Video link
+            description: "Paste the Vimeo or YouTube link. Leave empty to show 'Video coming soon'."
+            type: string
+          - name: credits
+            label: Credits (optional)
+            description: "Shown under the video, e.g. Dir. Jane Doe · LampHouse · 2025 · Editor"
+            type: string
+          - name: featured
+            label: Feature in Two Shots
+            description: "Tick for up to 3 projects across all categories. Documentary picks come first, then Commercial, then Narrative."
+            type: boolean
+          - name: second_still
+            label: Second still (Two Shots only)
+            description: "A contrasting second frame. Uses the thumbnail if empty."
+            type: image
+          - name: edit_note
+            label: One line about the edit (Two Shots only)
+            type: text
+          - name: hidden
+            label: Hide from site
+            description: "Keeps the project saved but off the page."
+            type: boolean
+      - name: commercial
+        label: Commercial
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Project title
+            type: string
+            required: true
+          - name: client
+            label: Agency, production company or format
+            description: "Shown next to the title, e.g. LampHouse or Feature documentary"
+            type: string
+          - name: status
+            label: Status (optional)
+            description: "Small italic note after the title, e.g. In festivals"
+            type: string
+          - name: thumbnail
+            label: Thumbnail still
+            description: "A 16:9 frame, about 1600 pixels wide. JPG works best."
+            type: image
+          - name: video
+            label: Video link
+            description: "Paste the Vimeo or YouTube link. Leave empty to show 'Video coming soon'."
+            type: string
+          - name: credits
+            label: Credits (optional)
+            description: "Shown under the video, e.g. Dir. Jane Doe · LampHouse · 2025 · Editor"
+            type: string
+          - name: featured
+            label: Feature in Two Shots
+            description: "Tick for up to 3 projects across all categories. Documentary picks come first, then Commercial, then Narrative."
+            type: boolean
+          - name: second_still
+            label: Second still (Two Shots only)
+            description: "A contrasting second frame. Uses the thumbnail if empty."
+            type: image
+          - name: edit_note
+            label: One line about the edit (Two Shots only)
+            type: text
+          - name: hidden
+            label: Hide from site
+            description: "Keeps the project saved but off the page."
+            type: boolean
+      - name: narrative
+        label: Narrative
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Project title
+            type: string
+            required: true
+          - name: client
+            label: Agency, production company or format
+            description: "Shown next to the title, e.g. LampHouse or Feature documentary"
+            type: string
+          - name: status
+            label: Status (optional)
+            description: "Small italic note after the title, e.g. In festivals"
+            type: string
+          - name: thumbnail
+            label: Thumbnail still
+            description: "A 16:9 frame, about 1600 pixels wide. JPG works best."
+            type: image
+          - name: video
+            label: Video link
+            description: "Paste the Vimeo or YouTube link. Leave empty to show 'Video coming soon'."
+            type: string
+          - name: credits
+            label: Credits (optional)
+            description: "Shown under the video, e.g. Dir. Jane Doe · LampHouse · 2025 · Editor"
+            type: string
+          - name: featured
+            label: Feature in Two Shots
+            description: "Tick for up to 3 projects across all categories. Documentary picks come first, then Commercial, then Narrative."
+            type: boolean
+          - name: second_still
+            label: Second still (Two Shots only)
+            description: "A contrasting second frame. Uses the thumbnail if empty."
+            type: image
+          - name: edit_note
+            label: One line about the edit (Two Shots only)
+            type: text
+          - name: hidden
+            label: Hide from site
+            description: "Keeps the project saved but off the page."
+            type: boolean
 
   - name: site
     label: Site details
