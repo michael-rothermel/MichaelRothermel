@@ -1,0 +1,93 @@
+# Pages CMS settings: this file tells the editor at app.pagescms.org
+# what can be edited. You don't need to change it.
+
+media:
+  input: images
+  output: /images
+
+content:
+  - name: projects
+    label: Projects
+    type: file
+    path: data/projects.json
+    format: json
+    list:
+      collapsible:
+        collapsed: true
+        summary: "{title} · {category}"
+    fields:
+      - name: title
+        label: Project title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [Documentary, Commercial, Narrative]
+      - name: client
+        label: Agency, production company or format
+        description: "Shown next to the title, e.g. LampHouse or Feature documentary"
+        type: string
+      - name: status
+        label: Status (optional)
+        description: "Small italic note after the title, e.g. In festivals"
+        type: string
+      - name: thumbnail
+        label: Thumbnail still
+        description: "A 16:9 frame, about 1600 pixels wide. JPG works best."
+        type: image
+      - name: video
+        label: Video link
+        description: "Paste the Vimeo or YouTube link. Leave empty to show 'Video coming soon'."
+        type: string
+      - name: credits
+        label: Credits (optional)
+        description: "Shown under the video, e.g. Dir. Jane Doe · LampHouse · 2025 · Editor"
+        type: string
+      - name: featured
+        label: Feature in Two Shots
+        description: "Tick for up to 3 projects. They appear in list order."
+        type: boolean
+      - name: second_still
+        label: Second still (Two Shots only)
+        description: "A contrasting second frame. Uses the thumbnail if empty."
+        type: image
+      - name: edit_note
+        label: One line about the edit (Two Shots only)
+        type: text
+      - name: hidden
+        label: Hide from site
+        description: "Keeps the project saved but off the page."
+        type: boolean
+
+  - name: site
+    label: Site details
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: email
+        label: Contact email
+        type: string
+      - name: availability
+        label: Availability (optional)
+        description: "e.g. January. Shows as 'Booking freelance edits for January.' Leave empty to hide."
+        type: string
+      - name: testimonial_quote
+        label: Testimonial quote (optional)
+        description: "Leave empty to hide the testimonial section."
+        type: text
+      - name: testimonial_name
+        label: Testimonial name and title
+        description: "e.g. Jane Doe, Executive Producer, LampHouse"
+        type: string
+      - name: instagram
+        label: Instagram link
+        type: string
+      - name: vimeo
+        label: Vimeo link
+        type: string
+      - name: linkedin
+        label: LinkedIn link
+        type: string

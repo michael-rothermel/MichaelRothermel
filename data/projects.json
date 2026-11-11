@@ -1,0 +1,26 @@
+[
+  { "title": "Sally's Iron Mustangs", "category": "Documentary", "client": "Feature documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false },
+  { "title": "Method Sampling", "category": "Documentary", "client": "Feature documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "YBEC: Experiencing Education in Colorado", "category": "Documentary", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Discover Lancaster", "category": "Documentary", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "F&M College", "category": "Documentary", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "West Shore", "category": "Documentary", "client": "Brand documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Thaddeus Stevens", "category": "Documentary", "client": "Brand documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+
+  { "title": "BetterHelp", "category": "Commercial", "client": "LONG/DIVISION", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false },
+  { "title": "Michelob Ultra", "category": "Commercial", "client": "The Looma Project", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Terro", "category": "Commercial", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "OSS Health", "category": "Commercial", "client": "Wakeen & Company", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Milgard", "category": "Commercial", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Hersheypark", "category": "Commercial", "client": "Donovan Witmer", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Camelback Resort", "category": "Commercial", "client": "Aumen Film Co", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Miter", "category": "Commercial", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "West Shore Home", "category": "Commercial", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Paris Baguette", "category": "Commercial", "client": "Donovan Witmer", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "Big Ass Fans", "category": "Commercial", "client": "Unrivaled", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+
+  { "title": "On the Mountain", "category": "Narrative", "client": "ARC", "status": "In festivals", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false },
+  { "title": "UNCAGED", "category": "Narrative", "client": "PERSP3CTIVE", "status": "In festivals", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "The Stand", "category": "Narrative", "client": "INGOMA", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false },
+  { "title": "UMURAGE", "category": "Narrative", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false }
+]

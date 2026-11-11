@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Rothermel | Freelance Film Editor</title>
+  <meta name="description" content="Freelance film editor for documentaries, commercials and narrative films. Work featured on PBS, Universal and SXSW.">
+  <meta property="og:title" content="Michael Rothermel | Freelance Film Editor">
+  <meta property="og:description" content="Freelance film editor for documentaries, commercials and narrative films.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="site-header wrap">
+  <a href="#top" class="brand">
+    <span class="brand-name">Michael Rothermel</span>
+    <span class="brand-role">film editor</span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#approach">Approach</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="grain" aria-hidden="true"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>Two shots.<br><em>A third meaning.</em></h1>
+        <p>I'm Michael Rothermel, a freelance editor of documentaries, commercials and narrative films. I find the story between the shots and shape it into something people feel.</p>
+        <div class="buttons">
+          <a href="#work" class="btn btn-dark">See the work</a>
+          <a href="#contact" class="btn btn-outline">Start a project</a>
+        </div>
+      </div>
+      <div class="hero-art" id="hero-art" aria-hidden="true">
+        <!-- timeline pieces: hidden until hover -->
+        <span class="tl tl-ruler"></span>
+        <span class="tl tl-line" style="top:25%"></span>
+        <span class="tl tl-line" style="top:42%"></span>
+        <span class="tl tl-line" style="top:59%"></span>
+        <span class="tl tl-line" style="top:76%"></span>
+        <!-- the three lines -->
+        <span class="bar bar-yellow" data-bar="yellow"></span>
+        <span class="bar bar-blue" data-bar="blue"></span>
+        <span class="bar bar-pink" data-bar="pink"></span>
+        <span class="track track-1">V1</span>
+        <span class="track track-2">V2</span>
+        <span class="track track-3">V3</span>
+        <!-- playhead: follows the cursor on hover -->
+        <span class="tl playhead"></span>
+        <span class="tl timecode"><span id="timecode">00:00:00:00</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDITS STRIP -->
+  <section class="credits" aria-label="Credits">
+    <div class="wrap credits-inner">
+      <em>Featured on</em><span>PBS</span><span>Universal</span><span>SXSW</span>
+      <em>Cut for</em><span>BetterHelp</span><span>Michelob Ultra</span><span>Hersheypark</span><span>Big Ass Fans</span>
+    </div>
+  </section>
+
+  <!-- FEATURED: TWO SHOTS -->
+  <section id="work" class="wrap section featured">
+    <div class="section-head">
+      <h2>Two shots, <em>a third meaning</em></h2>
+      <a href="#index" class="text-link">All projects ↓</a>
+    </div>
+    <div id="featured-list" class="featured-list"></div>
+  </section>
+
+  <!-- INDEX -->
+  <section id="index" class="wrap section index">
+    <div class="section-head">
+      <h2>Index <em>of work</em></h2>
+      <p class="hint">Hover over a title to preview it. Click to watch.</p>
+    </div>
+    <div id="index-list"></div>
+    <noscript><p>Please turn on JavaScript to see the project list.</p></noscript>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach" class="wrap section approach">
+    <div class="venn" id="venn" aria-hidden="true">
+      <span class="c c1"></span><span class="c c2"></span><span class="c c3"></span>
+    </div>
+    <div class="approach-copy">
+      <p class="eyebrow">Approach</p>
+      <h2>Editing is <em>what happens in the overlap.</em></h2>
+      <p>Put two images side by side and the audience creates a third: a feeling neither shot holds alone. That's the part of the job I love. A good story can change you, and my work is finding that story in the footage.</p>
+      <p>My work has appeared on PBS, Universal and SXSW. In 2021 I co-founded <a href="https://www.chaiyo.studio">CHAIYO</a>, a studio for stories that spark empathy, and I take on freelance edits with directors, producers and agencies who care about the same thing.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL (shown only when filled in) -->
+  <section id="testimonial" class="testimonial" aria-label="Testimonial" hidden>
+    <figure class="wrap">
+      <blockquote id="testimonial-quote"></blockquote>
+      <figcaption id="testimonial-name"></figcaption>
+    </figure>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <span class="contact-bar contact-bar-1" aria-hidden="true"></span>
+    <span class="contact-bar contact-bar-2" aria-hidden="true"></span>
+    <div class="wrap contact-inner">
+      <h2>Let's make something <em>that moves people.</em></h2>
+      <p id="availability">Tell me about your project: the type, timeline and deliverables.</p>
+      <a id="email-link" class="email" href="mailto:hello@michaelrothermel.com">hello@michaelrothermel.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year">2026</span> Michael Rothermel · Film Editor</span>
+    <span id="social-links" class="social"></span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-title" hidden>
+  <span class="lb-shape lb-shape-1" aria-hidden="true"></span>
+  <span class="lb-shape lb-shape-2" aria-hidden="true"></span>
+  <button type="button" class="lb-btn lb-close" aria-label="Close">
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2 L16 16 M16 2 L2 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lb-body">
+    <div class="lb-head">
+      <div>
+        <span id="lb-cat" class="lb-cat"></span>
+        <h2 id="lb-title"></h2>
+      </div>
+      <span id="lb-count" class="lb-count"></span>
+    </div>
+    <div id="lb-player" class="lb-player"></div>
+    <div class="lb-foot">
+      <div>
+        <span id="lb-meta" class="lb-meta"></span>
+        <span id="lb-credits" class="lb-credits"></span>
+      </div>
+      <div class="lb-nav">
+        <button type="button" class="lb-btn lb-prev"><span aria-hidden="true">←</span> Previous</button>
+        <button type="button" class="lb-btn lb-next">Next <span aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
