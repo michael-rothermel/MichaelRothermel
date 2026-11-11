@@ -66,8 +66,20 @@
   }
 
   // ---------- normalize the data from the CMS ----------
-  function normalize(list) {
-    return (Array.isArray(list) ? list : [])
+  function normalize(data) {
+    // Current layout: one list per category, e.g. { "documentary": [...], "commercial": [...], "narrative": [...] }.
+    // Older layouts ({ "projects": [...] } or a bare list with a "category" on each project) still work.
+    var list = [];
+    if (Array.isArray(data)) list = data;
+    else if (data && Array.isArray(data.projects)) list = data.projects;
+    else if (data && typeof data === 'object') {
+      Object.keys(data).forEach(function (key) {
+        if (!Array.isArray(data[key])) return;
+        var name = key.charAt(0).toUpperCase() + key.slice(1);
+        data[key].forEach(function (p) { list.push(Object.assign({}, p, { category: name })); });
+      });
+    }
+    return list
       .map(function (p) {
         return {
           title: clean(p.title),
