@@ -2,7 +2,7 @@
   "documentary": [
     {
       "title": "YBEC: Experiencing Education in Colorado",
-      "client": "Short documentary",
+      "client": "Documentary",
       "thumbnail": "/images/YBEC-CO-thumb-LG.webp",
       "video": "https://vimeo.com/902430334/5b0d32e117",
       "credits": "Director: Baktash Ahadi",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Sally's Iron Mustangs",
-      "client": "Feature documentary",
+      "client": "Documentary",
       "featured": true,
       "hidden": false
     }
