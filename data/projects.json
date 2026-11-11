@@ -1,30 +1,145 @@
 {
   "documentary": [
-    {"title": "Sally's Iron Mustangs", "client": "Feature documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false},
-    {"title": "Method Sampling", "client": "Feature documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "YBEC: Experiencing Education in Colorado", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Discover Lancaster", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "F&M College", "client": "Short documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "West Shore", "client": "Brand documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Thaddeus Stevens", "client": "Brand documentary", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false}
+    {
+      "title": "YBEC: Experiencing Education in Colorado",
+      "client": "Short documentary",
+      "thumbnail": "/images/YBEC-CO-thumb-LG.webp",
+      "video": "https://vimeo.com/902430334/5b0d32e117?share=copy&fl=sv&fe=ci",
+      "credits": "Director: Baktash Ahadi",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "F&M College",
+      "client": "Short documentary",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Discover Lancaster",
+      "client": "Short documentary",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "West Shore",
+      "client": "Brand documentary",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Thaddeus Stevens",
+      "client": "Brand documentary",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Method Sampling",
+      "client": "Feature documentary",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Sally's Iron Mustangs",
+      "client": "Feature documentary",
+      "featured": true,
+      "hidden": false
+    }
   ],
   "commercial": [
-    {"title": "BetterHelp", "client": "LONG/DIVISION", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false},
-    {"title": "Michelob Ultra", "client": "The Looma Project", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Terro", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "OSS Health", "client": "Wakeen & Company", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Milgard", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Hersheypark", "client": "Donovan Witmer", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Camelback Resort", "client": "Aumen Film Co", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Miter", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "West Shore Home", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Paris Baguette", "client": "Donovan Witmer", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "Big Ass Fans", "client": "Unrivaled", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false}
+    {
+      "title": "BetterHelp",
+      "client": "LONG/DIVISION",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "Hersheypark",
+      "client": "Donovan Witmer",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Michelob Ultra",
+      "client": "The Looma Project",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Terro",
+      "client": "LampHouse",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "OSS Health",
+      "client": "Wakeen & Company",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Milgard",
+      "client": "LampHouse",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Camelback Resort",
+      "client": "Aumen Film Co",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Miter",
+      "client": "LampHouse",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "West Shore Home",
+      "client": "LampHouse",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Paris Baguette",
+      "client": "Donovan Witmer",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Big Ass Fans",
+      "client": "Unrivaled",
+      "featured": false,
+      "hidden": false
+    }
   ],
   "narrative": [
-    {"title": "On the Mountain", "client": "ARC", "status": "In festivals", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": true, "edit_note": "", "hidden": false},
-    {"title": "UNCAGED", "client": "PERSP3CTIVE", "status": "In festivals", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "The Stand", "client": "INGOMA", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false},
-    {"title": "UMURAGE", "client": "LampHouse", "status": "", "thumbnail": "", "second_still": "", "video": "", "credits": "", "featured": false, "edit_note": "", "hidden": false}
+    {
+      "title": "On the Mountain",
+      "client": "ARC",
+      "status": "In festivals",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "UNCAGED",
+      "client": "PERSP3CTIVE",
+      "status": "In festivals",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "The Stand",
+      "client": "INGOMA",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "UMURAGE",
+      "client": "LampHouse",
+      "featured": false,
+      "hidden": false
+    }
   ]
 }
