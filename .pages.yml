@@ -11,10 +11,7 @@ content:
     type: file
     path: data/projects.json
     format: json
-    list:
-      collapsible:
-        collapsed: false
-        summary: "{title} · {category}"
+    list: true
     fields:
       - name: title
         label: Project title
