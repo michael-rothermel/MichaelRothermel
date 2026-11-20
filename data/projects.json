@@ -101,7 +101,10 @@
     {
       "title": "West Shore Home",
       "client": "LampHouse",
+      "thumbnail": "/images/West Shore - Deliver - FINAL ASSEMBLY - h264_00-02-42.625.jpg",
+      "video": "https://vimeo.com/853454916",
       "featured": true,
+      "second_still": "/images/West Shore - Deliver - FINAL ASSEMBLY - h264_00-00-47.531.jpg",
       "hidden": false
     },
     {
